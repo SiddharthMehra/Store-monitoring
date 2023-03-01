@@ -1,0 +1,16 @@
+Request
+
+GET /get_report?report_id=5c5af16f-d293-4c2b-8b9e-1a0eae231b2f HTTP/1.1
+Host: example.com
+
+Response if report generation is not complete
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "status": "Running"
+}
+
+
+Response if report generation is complete
