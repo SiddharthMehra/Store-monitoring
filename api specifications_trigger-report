@@ -1,0 +1,10 @@
+API specification for endpoint
+
+/trigger_report
+Endpoint to trigger report generation and return a report ID.
+
+Method: POST
+Path: /trigger_report
+Request body: None
+Response body:
+report_id (string): The randomly generated report ID.
