@@ -1,0 +1,19 @@
+Request
+
+POST /trigger_report HTTP/1.1
+Host: example.com
+Content-Type: application/json
+
+{}
+
+
+Response
+
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "report_id": "5c5af16f-d293-4c2b-8b9e-1a0eae231b2f"
+}
+
