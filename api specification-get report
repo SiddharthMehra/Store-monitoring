@@ -1,0 +1,13 @@
+/get_report
+Endpoint to get the status of the report and the CSV output.
+
+Method: GET
+Path: /get_report
+Request query parameters:
+report_id (string, required): The report ID returned from the /trigger_report endpoint.
+Response body:
+If report generation is not complete:
+status (string): The status of the report. Always set to "Running".
+If report generation is complete:
+status (string): The status of the report. Always set to "Complete".
+csv (string): The CSV output of the report, with the schema described in the problem statement.
